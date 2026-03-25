@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           distribution: "temurin"
-          java-version: 21
+          java-version: 25
 
       - name: Build
         # run: ./gradlew -Pmod_version=${{ github.event.release.tag_name }} clean build
